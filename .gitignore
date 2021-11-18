@@ -1,6 +1,8 @@
 .ipynb_checkpoints
 __pycache__
 synset.txt
+jetson-ota-public.asc
+nvidia-l4t-apt-source.list
 *.json
 *.onnx
 *.trt

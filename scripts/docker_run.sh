@@ -2,12 +2,12 @@
 
 set -eu
 
-source docker_base.sh
+source scripts/docker_base.sh
 
 sudo docker run \
     -it \
     --rm \
     --net=host \
     --runtime nvidia \
-    -v ${PWD}:/onnx2trt \
-    ${BASE_IMAGE}
+    -v ${PWD}:/workdir \
+    onnx2trt:l4t-r${L4T_VERSION}

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source l4t_version.sh
+source scripts/l4t_version.sh
 
 BASE_IMAGE="nvcr.io/nvidia/l4t-ml:r${L4T_VERSION}-py3"
 #BASE_DEVEL="nvcr.io/nvidian/nvidia-l4t-base:r$L4T_VERSION"
