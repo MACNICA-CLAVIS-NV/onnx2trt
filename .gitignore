@@ -1,0 +1,9 @@
+.ipynb_checkpoints
+__pycache__
+synset.txt
+*.json
+*.onnx
+*.trt
+*.dot
+*.png
+*.jpg
