@@ -2,16 +2,16 @@
 
 A sample Jupyter notebook to explain how to export ONNX model to NVIDIA TensorRT engine.
 
-# Target platform
+## Target platform
 
 - NVIDIA Jetson
 
-# Prerequisites
+## Prerequisites
 
 - NVIDIA Jetson Developer Kit with JetPack
     - Tested with Jetson Xavier NX Developer Kit with JetPack 4.6
 
-# Installation
+## Installation
 
 1. Clone this repository.
     ```
@@ -23,7 +23,7 @@ A sample Jupyter notebook to explain how to export ONNX model to NVIDIA TensorRT
     ./scripts/docker_build.sh
     ```
 
-# Usage
+## Usage
 
 1. Run a container from the build image.
     ```
