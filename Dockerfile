@@ -19,12 +19,10 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         libprotobuf* \
         protobuf-compiler \
-        ninja-build \
-        graphviz && \
+        ninja-build && \
     rm -rf /var/lib/apt/lists/*
 
-RUN pip3 install pydotplus graphviz && \
-    pip3 install onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com
+RUN pip3 install onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com
 
 WORKDIR /
 
